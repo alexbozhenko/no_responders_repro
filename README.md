@@ -18,7 +18,7 @@ go run  . -s "tls://eu.geo.ngs.global" -creds path/to/user.creds -n 5   subject 
 # 2. start 3(three) instances of subscribers in separate terminals
 # Important detail. If number of calls to nc.QueueSubscribe=1, 
 # the issue could not be reproroduced. So n must be n>=2
-# The issue also could not be reproduced if publishers are connected to the same server as the subscribers.
+# The issue also could not be reproduced if publishers are connected to the same region as the subscribers.
 cd subscribers
 go run  . -s "tls://east.us.geo.ngs.global"  -creds  path/to/user.creds -n 2  subject queue
 
