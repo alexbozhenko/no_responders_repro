@@ -4,7 +4,8 @@ Steps to reproduce:
 
 ```
 # 0. 
-git clone 
+git clone https://github.com/alexbozhenko/no_responders_repro.git
+cd no_responders_repro
 
 # 1. Start the publishers in a separate terminal, and observe the output:
 cd publishers
