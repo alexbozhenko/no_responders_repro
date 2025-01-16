@@ -1,7 +1,7 @@
 # no_responders_repro
 
-Reproducer for a bug where reconnection causes
-"no respoders available" error
+Reproducer for a bug where reconnection of queue group susbscriber causes
+"no respoders available" error for the clients(publishers)
 
 Steps to reproduce:
 
