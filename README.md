@@ -20,9 +20,10 @@ cd subscribers
 go run  . -s "tls://east.us.geo.ngs.global"  -creds  path/to/user.creds -n 2  subject queue
 
 # 3. 
-# press ctrl+c to froce reconnection in the subscribers
-# eventually , you will start to see the following errors in the publisher window:
+# press ctrl+c to froce reconnection in the subscribers.
+# You may have to do it several times in different subscribers terminals
+# Eventually , you will start to see the following errors in the publisher window:
 # `2025/01/16 15:05:59.414344 main.go:48: Error: nats: no responders available for request`
-
+# this seem like a bug, since subcribers are actually available.
 
 ```
