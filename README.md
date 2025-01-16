@@ -1,5 +1,8 @@
 # no_responders_repro
 
+Reproducer for a bug where reconnection causes
+"no respoders available" error
+
 Steps to reproduce:
 
 ```
